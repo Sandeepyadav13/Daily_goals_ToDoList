@@ -35,4 +35,81 @@
   to {
     transform: rotate(360deg);
   }
+  /* daily project  */
+  /* *{
+    margin:0;
+    padding:0;
+
+  } */
+}
+.header-text{
+  color: white;
+  text-align: center;
+}
+.container >h1{
+text-align: center;
+color: white;
+}
+
+.container{
+  background-color: rgb(87, 86, 88);
+  min-height: 100vh;
+  width: 70%;
+  margin: auto;
+  padding: 10px  70px ;
+  box-sizing: border-box;
+}
+.container > form
+{
+display: flex;
+flex-direction: column;
+} 
+
+input,textarea,button {
+padding: 10px;
+border: 1px solid rgba(29, 28, 28, 0.863);
+border-radius: 5px;
+margin: 5px 0px;
+size: 1.1rem;
+}
+.ho:hover{
+  background-color:rgba(0, 0, 0, 0.432);
+  color: red;
+}
+button{
+  border-radius: 50%;
+   cursor: pointer;
+   background-color: rgba(32, 29, 29, 0.897);
+   color: white;
+   width: 70%;
+   margin: auto;
+   /* margin-top: 5px; */
+}
+/* *{
+  border: 1px solid red;
+} */
+
+.task{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  padding:  4px;
+  margin: 20px 0px;
+  border-radius: 5px;
+  justify-content: center;
+}
+.task >div {
+  width: 100%;
+}
+.task >div >span{
+  color: rgba(41, 38, 38, 0.712);
+}
+.task button {
+  border-radius: 100%;
+  width: 30px ;
+  height: 30px ;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
